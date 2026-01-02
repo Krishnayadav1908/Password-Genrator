@@ -1,16 +1,59 @@
-# React + Vite
+# 🔑 Password Generator (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **simple and customizable password generator** built using **React**.  
+Generate strong passwords with options for **numbers** and **special characters**, and copy them to clipboard easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Generate passwords with **custom length** (6-100 characters)
+- Include **numbers** and/or **special characters**
+- Copy password to clipboard with a button
+- Real-time password generation as options change
+- Built with **React**, **useState**, **useEffect**, **useRef**, and **useCallback**
+- Stylish UI using **Tailwind CSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Functional Components + Hooks)
+- Tailwind CSS
+- JavaScript (ES6)
+
+---
+
+## 📷 Screenshots
+
+![Password Generator Screenshot](src/assets/screenshot.png)
+
+---
+
+## 💡 How to Use
+
+1. Adjust **password length** using the slider
+2. Toggle **numbers** and **special characters** checkboxes
+3. Generated password appears automatically
+4. Click **copy** to copy it to clipboard
+
+---
+
+## ⚡ Installation
+
+```bash
+
+git clone https://github.com/Krishnayadav1908/Password-Genrator.git
+cd passwordgenerator
+npm install
+npm run dev
+
+```
+
+---
+
+## 🔹 Notes
+
+- Default password length is 8 characters
+- Safe and fully Client-side (no backend required)
+- Works in all modern browsers
